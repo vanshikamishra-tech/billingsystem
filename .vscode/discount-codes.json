@@ -1,0 +1,6 @@
+  {
+    "DISCOUNT10": { "percentage": 10, "expiry": "2024-12-31" },
+    "SAVE20": { "percentage": 20, "expiry": "2025-01-15" },
+    "NEWYEAR50": { "percentage": 50, "expiry": "2025-01-01" }
+  }
+  

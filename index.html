@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket - Product Selection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css" integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Select Products</h1>
+
+        <!-- Search and Filter -->
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search Products..." oninput="searchProducts()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- Display Products -->
+        <div id="product-list" class="product-list"></div>
+
+        <!-- Cart Section -->
+        <h2>Your Cart</h2>
+        <div id="cart-details">
+            <!-- Cart items will be displayed here -->
+        </div>
+
+        <!-- Go to Checkout -->
+        <button onclick="goToCheckout()">Proceed to Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
